@@ -105,6 +105,14 @@ main h2 {
     margin-bottom: 60px;
 }
 
+p.snippets-paragraph {
+    padding: 0 20%;
+}
+
+p.clipboard-paragraph {
+    padding: 0 30%;
+}
+
 main p {
     text-align: center;
     color: var(--gray-500);
@@ -266,6 +274,10 @@ main p {
     margin-bottom: 60px;
 }
 
+.clipboard-paragraph-cta {
+    padding: 0 30%;
+}
+
 footer {
     height: auto;
     margin-top: 40px;
@@ -361,10 +373,18 @@ footer {
         padding: 0 20%;
     }
 
+    p.snippets-paragraph {
+        padding: 0;
+    }
+
     .descripition {
         flex-direction: column;
         align-items: center;
     }
+
+    p.clipboard-paragraph {
+    padding: 0;
+}
 
     .infos {
         padding-left: 0;
@@ -410,6 +430,10 @@ footer {
 
     .supporters img {
         margin-bottom: 80px;
+    }
+
+    .clipboard-paragraph-cta {
+        padding: 0;
     }
 
     footer {
